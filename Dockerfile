@@ -6,7 +6,7 @@ WORKDIR /home/docker
 
 COPY . .
 
-RUN  npm install hexo-cli -g && npm install 
+RUN  npm install hexo-cli -g && npm install -f
 
 RUN hexo clean & hexo g
 
