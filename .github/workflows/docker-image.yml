@@ -16,10 +16,10 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       env:
-        version: $(version)
+        IMAGE_TAG: ${{ github.sha }}
       run: |
         docker login --username=${{ secrets.DOCKER_USERNAME }} --password=${{ secrets.DOCKER_PASSWORD }} registry.cn-hangzhou.aliyuncs.com
         export version=$(date +%s)
-        docker build . --file Dockerfile --tag registry.cn-hangzhou.aliyuncs.com/huck/blog:$(version)
-        docker push registry.cn-hangzhou.aliyuncs.com/huck/blog:${{version}}
+        docker build . --file Dockerfile --tag registry.cn-hangzhou.aliyuncs.com/huck/blog:$IMAGE_TAG
+        docker push registry.cn-hangzhou.aliyuncs.com/huck/blog:$IMAGE_TAG
       
