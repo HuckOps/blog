@@ -9,13 +9,13 @@ COPY . .
 RUN  npm install hexo-cli -g && npm install -f
 
 RUN hexo clean & hexo g
+CMD sleep 5000000000000
+# FROM nginx
 
-FROM nginx
+# RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 
-RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
+# WORKDIR /usr/share/nginx/html
 
-WORKDIR /usr/share/nginx/html
+# COPY --from=build-env /home/docker/public /usr/share/nginx/html
 
-COPY --from=build-env /home/docker/public /usr/share/nginx/html
-
-EXPOSE 80
+# EXPOSE 80
