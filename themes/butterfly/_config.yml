@@ -412,7 +412,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: 厚德修身 精术济世<br/>本站运行在Kubernetes上<br/>陕ICP备2022005134号-1
+  custom_text: 厚德修身 精术济世<br/>本站运行在Kubernetes上，Istio提供Service Mesh<br/>陕ICP备2022005134号-1
   copyright: true # Copyright of theme and framework
 
 # Analysis
