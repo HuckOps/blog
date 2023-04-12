@@ -103,5 +103,7 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repository: git@github.com:HuckOps/HuckOps.github.io.git
+  repository: 
+    github: git@github.com:HuckOps/HuckOps.github.io.git
+    gitlab: git@gitlab.com:HuckOps/huckops.gitlab.io.git
   branch: master
