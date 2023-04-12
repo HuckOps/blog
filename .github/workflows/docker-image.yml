@@ -19,7 +19,6 @@ jobs:
         IMAGE_TAG: ${{ github.sha }}
       run: |
         docker login --username=${{ secrets.DOCKER_USERNAME }} --password=${{ secrets.DOCKER_PASSWORD }} registry.cn-hangzhou.aliyuncs.com
-        export version=$(date +%s)
         docker build . --file Dockerfile --tag registry.cn-hangzhou.aliyuncs.com/huck/blog:$IMAGE_TAG
         docker push registry.cn-hangzhou.aliyuncs.com/huck/blog:$IMAGE_TAG
       
