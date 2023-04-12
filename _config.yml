@@ -105,5 +105,4 @@ deploy:
   type: git
   repository: 
     github: git@github.com:HuckOps/HuckOps.github.io.git
-    gitlab: git@gitlab.com:HuckOps/huckops.gitlab.io.git
   branch: master
