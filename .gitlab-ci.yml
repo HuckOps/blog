@@ -3,13 +3,13 @@ cache:
   paths:
     - node_modules/
 
+only:
+  tags:
+    - "master"
+
 before_script:
   - npm install hexo-cli -g
   - npm install
-
-only:
-  tags:
-    - master
 
 pages:
   script:
@@ -18,4 +18,4 @@ pages:
     paths:
       - public
   only:
-    - master
+  - tags
