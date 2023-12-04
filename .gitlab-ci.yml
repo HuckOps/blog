@@ -7,6 +7,10 @@ before_script:
   - npm install hexo-cli -g
   - npm install
 
+only:
+  tags:
+    - master
+
 pages:
   script:
     - hexo generate
