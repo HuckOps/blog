@@ -412,7 +412,7 @@ footer:
   owner:
     enable: true
     since: 2021
-  custom_text: 厚德修身 精术济世<br/>本站运行在Gitlab Pages<br/>HuckOps
+  custom_text: 厚德修身 精术济世<br/>本站运行在Gitlab Pages<br/>HuckOps<br/><a href="https://beian.miit.gov.cn/">陕ICP备2024051161号-1</a>
   copyright: true # Copyright of theme and framework
 
 # Analysis
