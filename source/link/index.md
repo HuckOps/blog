@@ -5,3 +5,4 @@ type: link
 ---
 
 [Hcoin(HCN)智能存证合约](https://hcoin.huckops.xyz)
+[分布式短链接平台](https://s.huckops.xyz)
