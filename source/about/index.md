@@ -6,29 +6,46 @@ type: about
 
 # 😉 嗨！我是 Huck。 Hi！ This is Huck.
 
-自由职业/创业者/数字游民
+## ZH_CN
+
+自由职业者 / 创业者 / 数字游民
 
 前网易集团、小米集团高级软件研发工程师
 
-运维开发/云计算工程师一枚
+运维开发工程师 / 云计算工程师
 
-擅长爬虫开发、运维自动化开发、Linux 系统运维、区块链合约开发以及 Golang 开发。
+擅长爬虫开发、运维自动化开发、Linux 系统运维、区块链智能合约开发及 Golang 开发。
 
-Freelance/Entrepreneur/Digital Wanderer
+## EN_US
 
-Former Senior Software R&D Engineer of Netease Group and Xiaomi Group
+Freelancer / Entrepreneur / Digital Nomad
 
-DevOps Engineer / Cloud computing Engineer
+Former Senior Software R&D Engineer at NetEase and Xiaomi
 
-Good at crawler development, operation and maintenance automation development, Linux system operation, blockchain smart contract develpment and maintenance and golang development.
+DevOps Engineer / Cloud Computing Engineer
 
-フリーランス/起業家/デジタル遊民
+Proficient in web crawler development, operation and maintenance automation, Linux system administration, blockchain smart contract development, and Golang development.
 
-前網易グループ、小米グループの高級ソフトウェア開発エンジニア
+## JP
 
-サーバー保守エンジニア/クラウドコンピューティングエンジニア
+フリーランス / 起業家 / デジタルノマド
 
-爬虫類の開発、維持自動化開発、Linux システムの維持、ブロックチェーン契約開発、および Golang 開発が得意です。
+元・網易（ネットイー）、小米（シャオミ）の高級ソフトウェア開発エンジニア
+
+DevOps エンジニア / クラウドコンピューティングエンジニア
+
+クローラー開発、運用自動化開発、Linux システム運用、ブロックチェーンスマートコントラクト開発、Golang 開発を得意としています。
+
+## ES
+
+¡Hola! Soy Huck.
+Freelancer / Emprendedor / Nomada Digital
+
+Ex Ingeniero Senior de Desarrollo de Software en NetEase y Xiaomi
+
+Ingeniero DevOps / Ingeniero en Computación en la Nube
+
+Especializado en desarrollo de crawlers, automatización de operaciones, mantenimiento de sistemas Linux, desarrollo de contratos inteligentes de blockchain y desarrollo de Golang.
 
 # Donates
 
