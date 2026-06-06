@@ -1,8 +1,0 @@
-name = "hexo-blog"
-compatibility_date = "2025-12-01"
-workers_dev = true
-
-# 关键配置：Hexo静态输出目录固定public
-[site]
-bucket = "./public"
-entry-point = "workers-site"
