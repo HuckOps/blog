@@ -8,7 +8,7 @@ categories: 运维技术
 
 对于运维同学来说，cloudflare 并不是一个陌生的名词，我们会经常把 cloudflare 称为赛博活佛（因为它提供了免费的全球代理等功能，在其他云上那边都要只能上全球 CDN，收费还不便宜，但是 cloudflare 只需要把域名托管到 cloudflare 平台上就可以免费使用全球加速了）。正如最近网上盛传的一个梗图
 
-![c2eecd2f060540954908956be7250c7d.png](https://i.mji.rip/2025/11/20/c2eecd2f060540954908956be7250c7d.png)
+![1780765022682.png](https://s3.huckops.xyz/1780765022682.png)
 
 cloudflare 已经算是互联网的最根本的基石了，可以说 cloudflare 撑起了一整个互联网。cloudflare 在海外提供了多种云服务，比如权威 DNS（one.one.one.one）、全球 CDN、DDoS 防护、SSL/TLS 加密等，可以说只要目前咱们叫得上名字的大部分海外大厂都在用他们家的服务，比如 Netflix、Spotify、Twitter 等，可以说 cloudflare 在海外已经是举足轻重的地位了。但是因为一些合规原因，cloudflare 在国内业务是代理给国内一家叫科赋锐的公司（名字这么像，估计是为了合规在国内搞的全资子公司），而且经过代理之后，海外 cloudflare 有的优势以及特性在国内都不存在了，所以在国内的普及度远不如腾讯云和阿里云。
 

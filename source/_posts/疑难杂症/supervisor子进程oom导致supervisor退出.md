@@ -10,7 +10,7 @@ categories: 运维技术
 
 # 架构说明
 
-![47855d98a98ee227adedd012f3457e91.png](https://i2.mjj.rip/2024/06/05/47855d98a98ee227adedd012f3457e91.png)
+![1780764958822.png](https://s3.huckops.xyz/1780764958822.png)
 
 本次故障主要涉及项目中心服，中心服用到的技术栈为python3.11+uwsgi+mysql+mongo+redis，中心服由两个进程构成。uwsgi作为中心服的api接口，也是用户访问的主业务入口，push服务是一个异步推送服务，主要为用户推送信令以及处理一些异步指令。这两个进程都由supervisor进程管理，supervisor以apt方式进行安装。
 

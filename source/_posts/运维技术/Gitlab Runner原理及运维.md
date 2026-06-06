@@ -15,7 +15,7 @@ categories: 运维技术
 
 老规矩，要了解一个产品的原理首先要从架构入手。我们先来看一下 Gitlab CI 的工作流。
 
-![3d1c5473356e237ab824a7e8f90f6662.png](https://i.mji.rip/2026/03/20/3d1c5473356e237ab824a7e8f90f6662.png)
+![1780765077465.png](https://s3.huckops.xyz/1780765077465.png)
 
 ## 横向理解
 
