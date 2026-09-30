@@ -466,7 +466,8 @@ site_verification:
   #   content: xxxxxx
   - name: baidu-site-verification
     content: codeva-gY0K36IQd7
-
+  - name: sogou_site_verification
+    content: IfqrkMzlZX
 # Beautify/Effect (美化/效果)
 # --------------------------------------
 
