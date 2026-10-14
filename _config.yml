@@ -107,3 +107,9 @@ theme: butterfly
 #   repository: 
 #     github: git@github.com:HuckOps/HuckOps.github.io.git
 #   branch: master
+
+robotstxt:
+  useragent: "*"
+  allow:
+    - /
+  sitemap: https://blog.huckops.xyz/sitemap.xml
